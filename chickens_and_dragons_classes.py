@@ -43,6 +43,7 @@ class Hero:
     max_hp = 0
 
     #race and class defined in the constructor
+    # Note, using clas below and forewards as class is a Python keyword
 
     def __init__(self, name, race, clas):
         self.race = race
